@@ -1,0 +1,65 @@
++Apellido+
+package cade;
+import java.util.Scanner;
+public class apellido {
+public static void main(String []args){
+Scanner scanner = new Scanner(System.in);
+System.out.println("INGRESA UN NOMBRE : ");
+String cadena =scanner nextLine();
+cadena = cadena.toUpperCase();
+System.out.println("LOS CARACTERES QUE TIENE SON :");
+if(cadena.contains(" "));
+cadena = substring(0,cadena.length());
+System.out.println(cadena);
+String [] arrayString = cadena.split(" ");
+int pocisionName = 1;
+int pocision = arrayString.length -2;
+String nombre1 = arrayString[pocisionName];
+String apellidoPaterno=arrayString[pocision];
+System.out.print("EL PRIMER APELLIDO ES  : " + apellidoPaterno + "\n");
+System.out.print("EL SEGUNDO NOMBRE ES  : " + nombre1);
+}
+}
++Ejemplo Do While+
+package ejemplos;
+public class ejemplo while {
+public static void main (String []args){
+int contador = 0;
+do { System.out.println("Contando..." +(contador+1));
+contador+=1;
+} while (contador<10);  
+}
+}
++Ejemplo while+
+package ejemplos;
+public class ejemplo2for {
+public static void main(String []args){
+int valor[] = {1,2,3,4,5};
+int primer = 0;
+while(primer < valor.length)
+{
+System.out.println("Contador =" + valor[primer]);
+primer++
+}
+}
+}
++Ejemplo for(nombres)+
+package ejemplos;
+public class nombres {
+public static void main(String []args) {
+String array[] = {"mariana","mario","samanta","angel","gustavo"};
+for (int i = 0;i< array.length;i++){
+System.out.print(array[i]+",");
+}
+}
+}
++Ejemplo For(numeros)+
+package ejemplos;
+public class ejemplofor {
+public static void main(String []args) {
+for(int i=1, j=i+10; i < 20; i++, j++) {
+System.out.println("i ="+i+ "j =" +j);
+}
+}
+}
+
